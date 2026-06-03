@@ -238,7 +238,7 @@ public class GamePanel extends JPanel
     }
 
     @Override
-    protected void paintComponent(Graphics g)
+    public void paintComponent(Graphics g)
     {
         super.paintComponent(g);
 
