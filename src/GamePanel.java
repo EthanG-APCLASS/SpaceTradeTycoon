@@ -442,7 +442,6 @@ public class GamePanel extends JPanel {
         messageArea.append("\n" + msg);
         messageArea.setCaretPosition(messageArea.getDocument().getLength());
     }
-
     private void checkGameOver() {
         if (hull <= 0) {
             log("");
