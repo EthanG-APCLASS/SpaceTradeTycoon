@@ -458,21 +458,4 @@ public class GamePanel extends JPanel {
                     "Game Over", JOptionPane.ERROR_MESSAGE);
         }
     }
-
-    // No custom paintComponent - removed starfield and decorative borders
-
-    // ===================== MAIN ENTRY =====================
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            JFrame frame = new JFrame("Deep Space Trade Tycoon");
-            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            frame.setSize(760, 720);
-            frame.setResizable(false);
-            frame.setLocationRelativeTo(null);
-
-            GamePanel panel = new GamePanel();
-            frame.add(panel);
-            frame.setVisible(true);
-        });
-    }
 }
